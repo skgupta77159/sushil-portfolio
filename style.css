@@ -214,16 +214,16 @@ section .title::after{
     content: "who i am";
 }
 .about .about-content .left{
-    width: 45%;
+    width: 35%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
     border-radius: 6px;
 }
 .about .about-content .right{
-    width: 55%;
+    width: 65%;
 }
 .about .about-content .right .text{
     font-size: 25px;
@@ -300,7 +300,10 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-
+.linkwhite {
+    color: white;
+    text-decoration: none;
+}
 /* skills section styling */
 
 .skills .title::after{
