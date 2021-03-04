@@ -173,7 +173,6 @@ section .title::after{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
-    padding-bottom: 0;
 }
 .home .max-width{
     margin: auto 0 auto 30px;
