@@ -186,7 +186,11 @@ section .title::after{
     margin-left: -3px;
     transition: all 0.3s ease;
 }
-.home .home-content .text-2:hover{
+.home .home-content .text-2:active {
+    font-size: 80px;
+    transition: all 0.3s ease;
+}
+.home .home-content .text-2:hover {
     font-size: 80px;
     transition: all 0.3s ease;
 }
