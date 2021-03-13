@@ -184,6 +184,7 @@ section .title::after{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    margin-bottom: 15px;
     transition: all 0.3s ease;
 }
 .home .home-content .text-3{
@@ -211,6 +212,12 @@ section .title::after{
 .floating {   
     animation-name: floating; 
     animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+} 
+.floating1 {   
+    animation-name: floating; 
+    animation-duration: 5s; 
     animation-iteration-count: infinite; 
     animation-timing-function: ease-in-out;
 } 
@@ -465,9 +472,6 @@ section .title::after{
 }
 
 /* contact section styling */
-.contact .title::after{
-    content: "get in touch";
-}
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -493,6 +497,16 @@ section .title::after{
 .contact .contact-content .row i{
     font-size: 25px;
     color: #00008B;
+}
+.contact .contact-content .right .info i{
+    font-size: 20px;
+    color: grey;
+    margin-right: 20px;
+}
+.contact .contact-content .right .row .info i{
+    font-size: 20px;
+    color: grey;
+    margin-right: 20px;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
